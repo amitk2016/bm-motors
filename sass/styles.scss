@@ -393,6 +393,10 @@ article{
 	}
 }
 #service-1,#service-2{
+  &:after{
+    content: '';
+    display: block;
+    clear:both;
 	@media all and (min-width:750px){
 		width:45%;
 	}
@@ -424,6 +428,12 @@ article{
 	}
 }
 #service-left-box,#service-right-box{
+  background-color: orange;
+  &:after{
+    content: '';
+    display: block;
+    clear:both;
+  }
 	@media all and (min-width:1024px){
 		width:45%;
 	}
@@ -438,4 +448,19 @@ article{
 	@media all and (min-width:1024px){
 		float:left;
 	}
+}
+
+
+#customers-main-box{
+background-color:#333b4a;
+}
+#customer-720{
+  width:720px;
+  background-color: red;
+}
+
+.customers-box{
+  background-color:green;
+  height: 300px;
+  position: relative;
 }

@@ -470,6 +470,12 @@ article #article-heading-box img {
   }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003427}}
+#service-left-box:after, #service-right-box:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 @media all and (min-width: 1024px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003426}}
   #service-left-box, #service-right-box {
@@ -478,7 +484,7 @@ article #article-heading-box img {
 }
 
 @media all and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003436}}
   #service-left-box {
     float: left;
     margin-right: 60px;
@@ -486,10 +492,34 @@ article #article-heading-box img {
 }
 
 @media all and (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003442}}
   #service-right-box {
     float: left;
   }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003449}}
+#customers-main-box {
+  background-color: #333b4a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003452}}
+#customer-720 {
+  width: 720px;
+  background-color: red;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003457}}
+.customers-box {
+  background-color: green;
+  height: 300px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003461}}
+.customers-box img {
+  width: 100px;
+  position: absolute;
+  top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
