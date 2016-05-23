@@ -1,0 +1,495 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\000035}}
+body {
+  margin: 0;
+}
+
+@media all and (min-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\000038}}
+  #nav-container {
+    height: 110px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000312}}
+#nav-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000318}}
+nav {
+  padding: 0 10px;
+  margin: auto 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000321}}
+nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media all and (min-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000318}}
+  nav {
+    padding-left: 0;
+    width: 28%;
+    float: left;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000333}}
+nav div {
+  width: 300px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000341}}
+nav div:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000349}}
+nav a img {
+  width: 120px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000355}}
+nav h1 {
+  color: teal;
+  float: right;
+  line-height: 65px;
+  margin-top: 32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000364}}
+.phone-img {
+  padding-right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000367}}
+#contact {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media all and (min-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000367}}
+  #contact {
+    float: right;
+    width: 70%;
+    height: 110px;
+    line-height: 110px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000378}}
+#contact:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media all and (min-width: 650px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000392}}
+  #contact #left-contact {
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000395}}
+  #contact hr {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\0000398}}
+  #contact #right-contact {
+    float: right;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003103}}
+#contact ul {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+@media all and (min-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003103}}
+  #contact ul {
+    max-width: 410px;
+    float: right;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003112}}
+#contact ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003115}}
+#contact ul li p {
+  line-height: 60%;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003122}}
+#contact div {
+  width: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003128}}
+#contact a img {
+  width: 35px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003134}}
+#nav-2 {
+  background-color: #333;
+  height: 60px;
+}
+@media all and (max-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003137}}
+  #nav-2 ul:first-child {
+    display: none;
+  }
+}
+@media all and (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003137}}
+  #nav-2 ul:first-child {
+    padding-top: 0;
+    float: left;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003145}}
+#nav-2 ul:first-child li {
+  text-decoration: none;
+  background-color: teal;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003155}}
+#nav-2 ul:first-child li a {
+  color: #fff;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003163}}
+#nav-2 ul:nth-of-type(2) {
+  padding-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003166}}
+#nav-2 ul:nth-of-type(2) #menu {
+  float: left;
+  width: 40px;
+}
+@media all and (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003166}}
+  #nav-2 ul:nth-of-type(2) #menu {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003174}}
+#nav-2 ul:nth-of-type(2) .social-media {
+  float: right;
+  width: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003179}}
+#nav-2 ul:nth-of-type(2) li {
+  display: inline-block;
+  margin-right: 15px;
+}
+@media all and (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003179}}
+  #nav-2 ul:nth-of-type(2) li {
+    margin-right: 12px;
+    float: right;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003191}}
+#nav-2 ul:nth-of-type(2) li a img {
+  width: 27px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003200}}
+#main-image {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003202}}
+#main-image:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003208}}
+#main-image img {
+  display: block;
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003212}}
+#main-image h1 {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  z-index: 100;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003223}}
+article {
+  background-image: url(../images/tweed.png);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003228}}
+article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media all and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003234}}
+  article #article-heading-box {
+    width: 30%;
+    float: left;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003239}}
+article #article-heading-box p {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003242}}
+article #article-heading-box h1 {
+  font-size: 25px;
+  color: white;
+}
+@media all and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003242}}
+  article #article-heading-box h1 {
+    font-size: 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003249}}
+article #article-heading-box h2 {
+  font-size: 20px;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003253}}
+article #article-heading-box img {
+  width: 60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003258}}
+.four-boxes {
+  border: 1px solid #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003264}}
+.four-boxes h1 {
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003267}}
+.four-boxes img {
+  float: left;
+  width: 60px;
+}
+@media all and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003258}}
+  .four-boxes {
+    width: 48%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003275}}
+.four-boxes:hover {
+  background-color: teal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003279}}
+.repair-box:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media all and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003278}}
+  .repair-box {
+    width: 68%;
+    float: right;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003288}}
+.repair-box h1 {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003294}}
+.repair-box h2 {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media all and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003300}}
+  #left-article-1-box {
+    float: left;
+  }
+}
+
+@media all and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003305}}
+  #right-article-1-box {
+    float: right;
+  }
+}
+
+@media all and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003310}}
+  #left-article-2-box {
+    float: left;
+  }
+}
+
+@media all and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003315}}
+  #right-article-2-box {
+    float: right;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003320}}
+#our-services {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003325}}
+#services {
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003329}}
+.service-box {
+  position: relative;
+  padding-bottom: 5px;
+  border: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003333}}
+.service-box h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003339}}
+.service-box ul li:last-child {
+  background-color: #333;
+  padding: 7px 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003345}}
+.service-box ul li:first-child a {
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003349}}
+.service-box ul li {
+  display: inline-block;
+  padding: 7px 15px;
+  margin-right: 10px;
+  border: 1px solid #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003356}}
+.service-box ul li a {
+  text-decoration: none;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003361}}
+.service-box ul li img {
+  width: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003366}}
+.service-box ul img {
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003372}}
+.service-box img {
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003376}}
+.service-box span {
+  background-color: teal;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  font-size: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003389}}
+#service-left-box:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+@media all and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003395}}
+  #service-1, #service-2 {
+    width: 45%;
+  }
+}
+
+@media all and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003400}}
+  #service-1 {
+    float: left;
+    margin-left: 30px;
+  }
+}
+
+@media all and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003406}}
+  #service-2 {
+    float: right;
+  }
+}
+
+@media all and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003411}}
+  #service-3, #service-4 {
+    width: 45%;
+  }
+}
+
+@media all and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003416}}
+  #service-3 {
+    float: left;
+  }
+}
+
+@media all and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003421}}
+  #service-4 {
+    float: right;
+  }
+}
+
+@media all and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003426}}
+  #service-left-box, #service-right-box {
+    width: 45%;
+  }
+}
+
+@media all and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003431}}
+  #service-left-box {
+    float: left;
+    margin-right: 60px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845863314\/Sites\/bm-motors\/sass\/styles\.scss}line{font-family:\00003437}}
+  #service-right-box {
+    float: left;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
