@@ -40,13 +40,27 @@ function slider (){
 
 // slide toggle effect on the service div boxes 
 
-$('#service-1-container').hover(function(){
+$('#service-1').hover(function(){
 
-	$('#service-info').slideToggle('slow');
-
+	$('#service-1-info').slideToggle('slow');
 
 });
 
+$('#service-2').hover(function(){
+
+	$('#service-2-info').slideToggle('slow');
+
+});
+$('#service-3').hover(function(){
+
+	$('#service-3-info').slideToggle('slow');
+
+});
+$('#service-4').hover(function(){
+
+	$('#service-4-info').slideToggle('slow');
+
+});
 
 
 
