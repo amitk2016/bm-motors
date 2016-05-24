@@ -57,7 +57,7 @@ nav {
 			float: right;
 			line-height:65px;
 			margin-top: 32px;
-		
+
 
 		}
 }
@@ -135,13 +135,25 @@ nav {
 #nav-2{
 	background-color:#333;
 	height:60px;
-	ul:first-child{
+	ul:last-child{
 		@media all and (max-width:900px){
 			display:none;
+			padding-left:0;
+			z-index: 50;
+			position:relative;
+			margin: 0 auto;
+			text-align: center;
+			&:after{
+			content: '';
+			display: block;
+			clear:both;
+		}
+
 		}
 		@media all and (min-width:900px){
 			padding-top:0;
 			float:left;
+
 		}
 		li{
 			text-decoration: none;
@@ -150,6 +162,14 @@ nav {
 			border-radius:5px;
 			display: inline-block;
 			margin-right: 15px;
+			width:100%;
+			@media all and (max-width:900px){
+				padding:20px 0;
+				border:1px solid #333;
+				border-radius:none;
+				margin:0;
+				
+			}
 			// &:hover{
 			// 		color:red;
 			// 	}
@@ -161,7 +181,7 @@ nav {
 		}
 	}
 
-	ul:nth-of-type(2){
+	ul:first-child{
 		padding-top:8px;
 
 		#menu{
@@ -176,6 +196,9 @@ nav {
 				float: right;
 				width:40px;
 			}
+		li:nth-of-type(1){
+			margin-right: 0;
+		}
 
 		li{
 			display: inline-block;
@@ -191,6 +214,7 @@ nav {
 			a{
 				img{
 					width:27px;
+
 				}
 			}
 
@@ -217,7 +241,7 @@ nav {
 		width:70%;
 		display: block;
 		margin: 0 auto;
-		z-index: 100;
+		
 		color: white;
 	}
 }
