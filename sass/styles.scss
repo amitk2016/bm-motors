@@ -134,7 +134,10 @@ nav {
 
 #nav-2{
 	background-color:#333;
-	height:60px;
+	height:80px;
+	ul{
+		margin-top:0;
+	}
 	ul:last-child{
 		@media all and (max-width:900px){
 			display:none;
@@ -183,6 +186,7 @@ nav {
 
 	ul:first-child{
 		padding-top:8px;
+		line-height: 80px;
 
 		#menu{
 		float:left;
@@ -222,8 +226,12 @@ nav {
 	}
 }
 
+.slider{
+	background-image:url(..images/loading.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
 #main-image{
-	// height: 200px;
 	&:after{
 		content: '';
 		display: block;
@@ -233,6 +241,7 @@ nav {
 	img{
 		display:block;
 		max-width: 100%;
+		display: none;
 		}
 	h1{
 		position:absolute;

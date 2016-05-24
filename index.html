@@ -6,7 +6,7 @@
 	<meta name="description" content="between 150 and 160 characters ">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body onload="slider()">
 	<div id="nav-container">
 			<nav>
 				<div>
@@ -65,9 +65,11 @@
 			
 		</div>
 
-		<div id="main-image">
-			<img src="images/car-bg4.jpg">
-			<!-- <h1>Lorem ipsum dol</h1> -->
+		<div id="main-image" class="slider">
+			<img id="1" src="images/main-image-1.jpg">
+			<img id="2" src="images/main-image-2.jpg">
+			<img id="3" src="images/main-image-3.jpg">
+			<img id="4" src="images/main-image-4.jpg">
 		</div>
 
 		<article>
@@ -384,6 +386,7 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/script.js">
 	</script>
 </body>

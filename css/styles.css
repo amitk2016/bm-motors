@@ -108,7 +108,10 @@ nav h1 {
 
 #nav-2 {
   background-color: #333;
-  height: 60px;
+  height: 80px;
+}
+#nav-2 ul {
+  margin-top: 0;
 }
 @media all and (max-width: 900px) {
   #nav-2 ul:last-child {
@@ -154,6 +157,7 @@ nav h1 {
 }
 #nav-2 ul:first-child {
   padding-top: 8px;
+  line-height: 80px;
 }
 #nav-2 ul:first-child #menu {
   float: left;
@@ -185,6 +189,12 @@ nav h1 {
   width: 27px;
 }
 
+.slider {
+  background-image: url(..images/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #main-image {
   position: relative;
 }
@@ -196,6 +206,7 @@ nav h1 {
 #main-image img {
   display: block;
   max-width: 100%;
+  display: none;
 }
 #main-image h1 {
   position: absolute;
