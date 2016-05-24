@@ -397,6 +397,22 @@ article #article-heading-box img {
   font-size: 25px;
 }
 
+#service-info {
+  width: inherit;
+  height: inherit;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #000000;
+  opacity: 0.7;
+  display: none;
+  position: absolute;
+  top: 0;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 300px;
+}
+
 #service-left-box:after {
   content: '';
   display: block;
@@ -414,6 +430,9 @@ article #article-heading-box img {
   }
 }
 
+#service-1 {
+  position: relative;
+}
 @media all and (min-width: 750px) {
   #service-1 {
     float: left;
