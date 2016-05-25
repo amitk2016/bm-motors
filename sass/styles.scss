@@ -609,4 +609,146 @@ article{
 }
 
 
+// footer starts here .........................................................
+
+footer{
+	background-color:#36404b;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+
+	&:after{
+		content: '';
+		display: block;
+		clear:both;
+	}
+	#footer-left-box{
+		@media all and(min-width:780px){
+		float:left;
+		width:50%;
+		}
+		#left-contactus{
+			@media all and(min-width:1024px){
+				width:50%;
+				float:left;
+				ul{
+					padding-left:20px;
+					li{
+						line-height:25px;
+						span{
+							color:#e74c3c;
+						}
+					}
+				}
+			}
+		}
+		#left-services{
+			@media all and(min-width:1024px){
+				width:50%;
+				float:right;
+				li{
+					line-height: 40px;
+				}
+			}
+		}	
+	}
+
+	#footer-right-box{
+		@media all and(min-width:780px){
+		float:right;
+		width:50%;
+		}
+
+		#right-support{
+			@media all and(min-width:1024px){
+				width:40%;
+				float:left;
+				ul{
+					li{
+					line-height:40px;
+					}
+				}	
+			}
+		}
+		#search-box{
+			@media all and(min-width:1024px){
+				width:50%;
+				float:right;
+			}
+
+		}
+
+	}
+	div{
+		p{
+			@media all and(min-width:780px){
+		width:250px;
+		}
+
+			width:320px;
+			color: white;
+		}
+		h3{
+			color:white;
+			text-transform: uppercase;
+		}
+	}
+	ul{
+		list-style-image: url(../images/tick.png);
+		li{
+			color:white;
+		}
+	}
+	#search-box{
+		form{
+			div{
+				max-width:100%;
+				h1{
+					font-size: 22px;
+				}
+				textarea{
+					width:200px;
+					border-radius:4px;
+				}
+				
+			}
+		}
+		input:not(#footer-submit){
+			width:200px;
+			height: 25px;
+			border-radius:4px;
+			margin-bottom:10px;
+		}
+	}
+}
+
+#footer-submit{
+					margin-top: 10px;
+					padding:5px 25px;
+					border-radius:3px;
+					background-color:#e74c3c;
+					color:white;
+					font-size: 15px;
+					pointer:cursor;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

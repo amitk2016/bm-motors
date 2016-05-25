@@ -581,4 +581,112 @@ article #article-heading-box img {
   }
 }
 
+footer {
+  background-color: #36404b;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media all and (min-width: 780px) {
+  footer #footer-left-box {
+    float: left;
+    width: 50%;
+  }
+}
+@media all and (min-width: 1024px) {
+  footer #footer-left-box #left-contactus {
+    width: 50%;
+    float: left;
+  }
+  footer #footer-left-box #left-contactus ul {
+    padding-left: 20px;
+  }
+  footer #footer-left-box #left-contactus ul li {
+    line-height: 25px;
+  }
+  footer #footer-left-box #left-contactus ul li span {
+    color: #e74c3c;
+  }
+}
+@media all and (min-width: 1024px) {
+  footer #footer-left-box #left-services {
+    width: 50%;
+    float: right;
+  }
+  footer #footer-left-box #left-services li {
+    line-height: 40px;
+  }
+}
+@media all and (min-width: 780px) {
+  footer #footer-right-box {
+    float: right;
+    width: 50%;
+  }
+}
+@media all and (min-width: 1024px) {
+  footer #footer-right-box #right-support {
+    width: 40%;
+    float: left;
+  }
+  footer #footer-right-box #right-support ul li {
+    line-height: 40px;
+  }
+}
+@media all and (min-width: 1024px) {
+  footer #footer-right-box #search-box {
+    width: 50%;
+    float: right;
+  }
+}
+footer div p {
+  width: 320px;
+  color: white;
+}
+@media all and (min-width: 780px) {
+  footer div p {
+    width: 250px;
+  }
+}
+footer div h3 {
+  color: white;
+  text-transform: uppercase;
+}
+footer ul {
+  list-style-image: url(../images/tick.png);
+}
+footer ul li {
+  color: white;
+}
+footer #search-box form div {
+  max-width: 100%;
+}
+footer #search-box form div h1 {
+  font-size: 22px;
+}
+footer #search-box form div textarea {
+  width: 200px;
+  border-radius: 4px;
+}
+footer #search-box input:not(#footer-submit) {
+  width: 200px;
+  height: 25px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#footer-submit {
+  margin-top: 10px;
+  padding: 5px 25px;
+  border-radius: 3px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 15px;
+  pointer: cursor;
+}
+
 /*# sourceMappingURL=styles.css.map */

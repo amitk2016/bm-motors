@@ -1,5 +1,4 @@
-//listen for when the user clicks on the hamburger menu 
-$(document).ready(function(){
+//listen for when the user clicks on the hamburger menu
 
 
 $('#menu').on('click', function(){
@@ -18,7 +17,7 @@ $('#home-menu').slideToggle();
 
 
 // Image slider for main images 
-function slider (){
+// function slider (){
 	$(".slider #1").show("fade",200);
 	$(".slider #1").delay(3500).hide("slide",{direction:"left"},500);
 
@@ -76,8 +75,6 @@ $('#service-4').hover(function(){
 
 
 
-
-});
 
 
 
