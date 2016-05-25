@@ -6,7 +6,7 @@
 	<meta name="description" content="between 150 and 160 characters ">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body onload="slider()">
+<body>
 	<div id="nav-container">
 			<nav>
 				<div>
@@ -65,11 +65,17 @@
 			
 		</div>
 
-		<div id="main-image" class="slider">
-			<img id="1" src="images/main-image-1.jpg">
-			<img id="2" src="images/main-image-2.jpg">
-			<img id="3" src="images/main-image-3.jpg">
-			<img id="4" src="images/main-image-4.jpg">
+		<div id="main-image" class="rslides">
+			<ul>
+				<li><img id="1" src="images/main-image-1.jpg"></li>
+				<li><img id="2" src="images/main-image-2.jpg"></li>
+				<li><img id="3" src="images/main-image-3.jpg"></li>
+				<li><img id="4" src="images/main-image-4.jpg"></li>
+			</ul>
+			
+			
+			
+			
 		</div>
 
 		<article>
@@ -202,34 +208,58 @@
 			</div>
 			
 			<div id="customer-color">
-						<div id="customers-main-box">
-							<div id="customer-720">
-							<h1>What Our Client Says</h1>
-								<div id="customer-left">
-									<div id="customer1" class="customers-box">
-										<img src="http://placehold.it/80x80" alt="" />
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-										</p>
-										<h3>Kevin Adams <img id="five-star" src="images/five-stars.gif"></h3>
 
-									</div>
+						<div id="customers-main-box">
+
+							<div id="customer-720">
+
+
+							<h1>What Our Client Says</h1>
+
+								<div id="customer-left">
+
+										<div id="customer1" class="customers-box">
+												<img class="profile-img" src="http://placehold.it/80x80" alt="" />
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+												</p>
+												<div>
+													<h3>Kevin Adams </h3>
+													<img id="five-star" src="images/five-stars.gif">
+												</div>
+
+										</div>
 
 										<div id="customer2" class="customers-box">
-											<img src="http://placehold.it/80x80">
+											<img class="profile-img" src="http://placehold.it/80x80">
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 											</p>
-											<h3>Paul Williams <img id="five-star" src="images/five-stars.gif"></h3>
+											<div>
+												<h3>Paul Williams </h3>
+												<img id="five-star" src="images/five-stars.gif">
+											</div>
 										</div>
 								</div>
+								<div id="customer-right">
 
-									<div id="customer3" class="customers-box">
-										<img src="http://placehold.it/80x80">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-										</p>
-										<h3>James Page <img id="five-star" src="images/five-stars.gif"></h3>
-										
-
-									</div>
+										<div id="customer3" class="customers-box">
+												<img class="profile-img" src="http://placehold.it/80x80">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+												</p>
+												<div>
+													<h3>James Page </h3>	
+													<img id="five-star" src="images/five-stars.gif">	
+												</div>
+										</div>
+										<div id="customer4" class="customers-box">
+												<img class="profile-img" src="http://placehold.it/80x80">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+												</p>
+												<div>
+													<h3>James Page</h3>
+													<img id="five-star" src="images/five-stars.gif">
+												</div>		
+										</div>
+								</div>
 
 							</div>
 
@@ -249,26 +279,24 @@
 										<div id="service-1" class="service-box">
 												<img src="images/member-1.jpg">
 												<span>+</span>
-												<h1>Car Inspection</h1>
-												<ul>
+												
+												<ul class="worker-name" >
 													<li>
-														<img src="images/right-arrow.png">
-														<a href="#">Get a Quote</a>
+														<h3>Jonathan Doe</h3>
 													</li>
-													<li><a href="#"> Read More</a></li>
+													<li>Mechanic Worker</li>
 												</ul>
 										</div>
 
 										<div id="service-2" class="service-box">
 												<img src="images/member-2.jpg">
 												<span>+</span>
-												<h1>Car Inspection</h1>
-												<ul>
+												
+												<ul class="worker-name">
 													<li>
-														<img src="images/right-arrow.png">
-														<a href="#">Get a Quote</a>
+														<h3>Sam Doe</h3>
 													</li>
-													<li><a href="#"> Read More</a></li>
+													<li>Mechanic Worker</li>
 												</ul>
 										</div>
 
@@ -283,31 +311,38 @@
 							<div id="service-3" class="service-box">
 								<img src="images/member-3.jpg">
 								<span>+</span>
-								<h1>Car Inspection</h1>
-								<ul>
+								
+								<ul class="worker-name" >
 									<li>
-										<img src="images/right-arrow.png">
-										<a href="#">Get a Quote</a>
+										<h3>Tom Doe</h3>
 									</li>
-									<li><a href="#"> Read More</a></li>
+									<li>Mechanic Worker</li>
 								</ul>
 							</div>
 							<div id="service-4" class="service-box">
 								<img src="images/services4.jpg">
 								<span>+</span>
-								<h1>Car Inspection</h1>
-								<ul>
+								
+								<ul class="worker-name">
 									<li>
-										<img src="images/right-arrow.png">
-										<a href="#">Get a Quote</a>
+										<h3>Ethan Doe</h3>
 									</li>
-									<li><a href="#"> Read More</a></li>
+									<li>Mechanic Worker</li>
 								</ul>
 							</div>
 
 						</div>
 					</div>
 
+			</div>
+
+
+
+			<div id="contact">
+				<a href="#" id="get-location">Get location</a>
+				<div id="map">
+					<iframe id="google-map" width="350" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.co.nz/maps/place/Brendon+Motors+Tory+Street/@-41.2923797,174.779477,17z/data=!3m1!4b1!4m5!3m4!1s0x6d38afd06f5089ef:0x40ea4b75b2b845e7!8m2!3d-41.2923838!4d174.781671"></iframe>
+				</div>
 			</div>
 
 
@@ -363,7 +398,7 @@
 									<div>
 										<textarea name="message" cols="20" rows="5" placeholder="Message..."></textarea>
 									</div>
-									<input id="footer-submit" type="submit" value="Submit">
+									<input id="footer-submit" type="submit" value="Send">
 								</form>
 							</div>
 					</div>
@@ -394,6 +429,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="responsiveslides.min.js"></script>
 	<script type="text/javascript" src="js/script.js">
 	</script>
 </body>
