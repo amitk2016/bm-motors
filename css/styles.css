@@ -895,4 +895,9 @@ footer #search-box input:not(#footer-submit) {
   pointer: cursor;
 }
 
+#map-container {
+  height: 350px;
+  width: 250px;
+}
+
 /*# sourceMappingURL=styles.css.map */
