@@ -18,33 +18,34 @@
 			<div id="contact">
 
 				<ul>
-						<div id="left-contact">
-								<li class="phone-img"><a href="#"><img src="images/telephone.png"></a></li>
-								<li>
-									<p>
-									<b>Call Us Now </b>
+					<div id="left-contact">
+							<li class="phone-img"><a href="#"><img src="images/telephone.png"></a></li>
+							<li>
+								<p>
+								<b>Call Us Now </b>
+								<br></br>
+								+64 123 456 789
+								</p>
+							</li>
+					</div>
+
+					<hr>
+
+					<div id="right-contact">
+							<li><a href="#"><img src="images/clock.png"></a></li>
+							<li>
+								<p>
+									<b>Opening Hours</b>
 									<br></br>
-									+64 123 456 789
-									</p>
-								</li>
-						</div>
-
-						<hr>
-
-						<div id="right-contact">
-								<li><a href="#"><img src="images/clock.png"></a></li>
-								<li>
-									<p>
-										<b>Opening Hours</b>
-										<br></br>
-										Mon - Sat 9.00 - 19.00
-									</p>
-								</li>
-						</div>
+									Mon - Sat 9.00 - 19.00
+								</p>
+							</li>
+					</div>
 				</ul>
 
 			</div>
 		</div>
+
 
 		<div id="nav-2">
 			<ul>
@@ -337,11 +338,16 @@
 			</div>
 
 
+			<div id="map-main-container">
 
-			<div id="contact">
-				<div id="map-container"></div>
+					<select id="store-picker">
+				
+					</select>
 
-				<select id="store-picker"></select>
+				<div id="maps">
+					<div id="map-container"></div>	
+				</div>
+
 			</div>
 
 
@@ -428,9 +434,9 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="responsiveslides.min.js"></script>
-	<script type="text/javascript" src="js/script.js">
-	</script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/geolocation.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?callback=initMap&libraries=geometry"></script>
+	
 </body>
 </html>

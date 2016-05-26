@@ -787,6 +787,30 @@ article #article-heading-box img {
   width: 150px;
 }
 
+#map-main-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#map-main-container #maps:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media all and (min-width: 750px) {
+  #map-main-container #maps {
+    width: 70%;
+    float: right;
+  }
+}
+#map-main-container #maps #map-container {
+  max-width: 100%;
+  height: 350px;
+}
+#map-main-container #maps select {
+  width: 120px;
+}
+
 footer {
   background-color: #36404b;
   padding-left: 20px;
@@ -893,11 +917,6 @@ footer #search-box input:not(#footer-submit) {
   color: white;
   font-size: 15px;
   pointer: cursor;
-}
-
-#map-container {
-  height: 350px;
-  width: 250px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,6 +5,87 @@ $primaryColor: #008080;
 body{
 	margin:0;
 }
+
+#nav-container{
+	nav{
+		div{
+			h1{
+
+			}
+			a{
+
+			}
+		}
+	}
+	#contact{
+		ul{
+			#left-contact{
+				li{
+
+				}
+				li{
+					p{
+						
+					}
+					b{
+
+					}
+					p{
+
+					}
+				}
+			}
+			#right-contact{ 
+				li{
+
+				}
+				li{
+					p{
+						b{
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #nav-container{
 	@media all and (min-width:950px){
 		height:110px;
@@ -963,6 +1044,40 @@ article{
 // }
 
 
+
+//Google Maps styles Starts here.............................................................................................
+
+#map-main-container{
+	&:after{
+			content: '';
+			display: block;
+			clear:both;
+		}
+	#maps{
+		&:after{
+			content: '';
+			display: block;
+			clear:both;
+		}
+		@media all and(min-width:750px){
+			width:70%;
+			float:right;
+		}
+
+		#map-container {
+		max-width:100%;
+		height:350px;
+		
+		}
+
+		
+		select {
+	  		width:120px;
+
+			}
+	}
+}
+
 // footer starts here .........................................................
 
 footer{
@@ -1087,10 +1202,6 @@ footer{
 				}
 
 
-#map-container {
-	height: 350px;
-	width:250px;
-}
 
 
 
