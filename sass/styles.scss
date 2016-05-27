@@ -21,12 +21,13 @@ body{
 #nav-container{
 	@extend %clear;
 	@include mscreen-950{
-		height:150px;
+	height:150px;
 	}
 	nav{
 		padding:0 10px;
 		margin:auto 0;
 		box-sizing:border-box;
+		
 		@extend %clear;
 		@include mscreen-950{
 			 padding-left:0;
@@ -68,7 +69,17 @@ body{
 	}
 
 	#contact{
+		
 		ul{
+		margin:0 auto;
+		width: 60%;
+		text-align: center;
+		@extend %clear;
+		margin-bottom: 0;
+			@include mscreen-950{
+					width:70%;
+				}
+
 			#left-contact{
 				li{
 
@@ -86,10 +97,14 @@ body{
 				}
 			}
 			#right-contact{ 
+				@include mscreen-950{
+					width:60%;
+				}
 				li{
 
 				}
 				li{
+
 					p{
 						b{
 
@@ -102,7 +117,57 @@ body{
 }
 
 
+// #nav-2{
+// 	background-color:#333;
+// 	height:80px;
+// 	@extend %clear;
+// 	#social-media-ul{
+// 		padding-top:8px;
+//  		line-height: 80px;
+//  		margin-top: 0;
+//  		@extend %clear;
+//  		@include mscreen-900{
+//  			width:40%;
+//  			float:right;
+//  		}
+//  		.social-media{
+//  			float: right;
+//  			width:40px;
+//  		}
+// 		li{
+// 			display: inline-block;
+// 			margin-right:15px;
+// 			@include mscreen-900{
+// 				margin-right: 12px;
+// 				float:right; 
+// 			}
+// 			a{
+// 				img{
+// 					width:23px;
+// 				}
+// 			}
 
+// 		}
+// 		#menu{
+// 			float:left;
+//  			width:50px;
+//  			@include mscreen-900{
+//  				display: none;
+//  			}
+// 		}
+// 	}
+// 	#home-menu{
+// 		@include lscreen-900{
+// 			display: none;
+// 		}
+// 		li{
+// 			a{
+
+// 			}
+// 		}
+
+// 	}
+// }
 
 
 
@@ -211,7 +276,7 @@ body{
 		clear: both;
 	}
 	#left-contact{
-
+	
 	}
 	#right-contact{
 
@@ -231,11 +296,12 @@ body{
 	}
 
 	ul{
+	
 		margin:0 auto;
 		width: 60%;
 		text-align: center;
 		@media all and (min-width:950px){
-			max-width:410px;
+			max-width:510px;
 			float: right;
 		}
 
@@ -256,7 +322,7 @@ body{
 
 		a{
 			img{
-				width:35px;
+				width:25px;
 			 }
 		}
 }
@@ -264,8 +330,13 @@ body{
 #nav-2{
 	background-color:#333;
 	height:80px;
+	@extend %clear;
+	@media all and(min-width:900px){
+
+	}
 	ul{
 		margin-top:0;
+		@extend %clear;
 	}
 	ul:last-child{
 		@media all and (max-width:900px){
@@ -293,14 +364,14 @@ body{
 			padding:5px 15px;
 			border-radius:5px;
 			display: inline-block;
-			margin-right: 15px;
-			width:100%;
-
+			margin-right:18px;
+			
 			@media all and (max-width:900px){
 				padding:20px 0;
 				border:1px solid #333;
 				border-radius:none;
 				margin:0;
+				width:100%;
 				
 			}
 			// &:hover{
@@ -317,6 +388,11 @@ body{
 	ul:first-child{
 		padding-top:8px;
 		line-height: 80px;
+		@extend %clear;
+		@media all and(min-width:900px){
+			width:30%;
+			float:right;
+		}
 
 		#menu{
 		float:left;
@@ -355,37 +431,6 @@ body{
 		}
 	}
 }
-
-.rslides {
-	  position: relative;
-	  list-style: none;
-	  overflow: hidden;
-	  width: 100%;
-	  padding: 0;
-	  margin: 0;
-
-  		li{
-  			-webkit-backface-visibility: hidden;
-			  position: absolute;
-			  display: none;
-			  width: 100%;
-			  left: 0;
-			  top: 0;
-		 	}
-		 li:first-child{
-			  position: relative;
-			  display: block;
-			  float:left;
-			  }
-		img {
-			  display: block;
-			  height: auto;
-			  float:left;
-			  width: 100%;
-			  border: 0;
-		}
-  }
-
 
 
 // .slider{

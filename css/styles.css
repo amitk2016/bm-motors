@@ -1,4 +1,4 @@
-#nav-container, #nav-container nav, #nav-container nav div {
+#nav-container, #nav-container nav, #nav-container nav div, #nav-container #contact ul, #nav-2, #nav-2 ul, #nav-2 ul:first-child {
   content: '';
   display: block;
   clear: both;
@@ -57,6 +57,22 @@ body {
     line-height: 48px;
   }
 }
+#nav-container #contact ul {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 0;
+}
+@media all and (min-width: 950px) {
+  #nav-container #contact ul {
+    width: 70%;
+  }
+}
+@media all and (min-width: 950px) {
+  #nav-container #contact ul #right-contact {
+    width: 60%;
+  }
+}
 
 .phone-img {
   padding-right: 20px;
@@ -97,7 +113,7 @@ body {
 }
 @media all and (min-width: 950px) {
   #contact ul {
-    max-width: 410px;
+    max-width: 510px;
     float: right;
   }
 }
@@ -113,7 +129,7 @@ body {
   width: 200px;
 }
 #contact a img {
-  width: 35px;
+  width: 25px;
 }
 
 #nav-2 {
@@ -150,8 +166,7 @@ body {
   padding: 5px 15px;
   border-radius: 5px;
   display: inline-block;
-  margin-right: 15px;
-  width: 100%;
+  margin-right: 18px;
 }
 @media all and (max-width: 900px) {
   #nav-2 ul:last-child li {
@@ -159,6 +174,7 @@ body {
     border: 1px solid #333;
     border-radius: none;
     margin: 0;
+    width: 100%;
   }
 }
 #nav-2 ul:last-child li a {
@@ -168,6 +184,12 @@ body {
 #nav-2 ul:first-child {
   padding-top: 8px;
   line-height: 80px;
+}
+@media all and (min-width: 900px) {
+  #nav-2 ul:first-child {
+    width: 30%;
+    float: right;
+  }
 }
 #nav-2 ul:first-child #menu {
   float: left;
@@ -197,35 +219,6 @@ body {
 }
 #nav-2 ul:first-child li a img {
   width: 27px;
-}
-
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-}
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
 }
 
 article {
