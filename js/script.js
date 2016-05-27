@@ -12,6 +12,76 @@ $('#home-menu').slideToggle();
 
 
 
+//Scroll effect After pressing the navbar link ...............................................
+
+$('#home-button').click(function(){
+  
+   $('html, body').animate({
+        scrollTop: $("#nav-container").offset().top
+    }, 1000);
+});
+
+$('#service-button').click(function(){
+  
+   $('html, body').animate({
+        scrollTop: $("#services-main-box").offset().top
+    }, 1000);
+});
+
+$('#feedback-button').click(function(){
+  
+   $('html, body').animate({
+        scrollTop: $("#customer-color").offset().top
+    }, 1000);
+});
+
+$('#aboutus-button').click(function(){
+  
+   $('html, body').animate({
+        scrollTop: $("#aboutus").offset().top
+    }, 1000);
+});
+
+
+$('#contact-button').click(function(){
+  
+   $('html, body').animate({
+        scrollTop: $("#map-main-container").offset().top
+    }, 1000);
+});
+
+
+
+
+
+
+
+// nav-2 scroll to some height and fixed at its position 
+
+$(document).ready(function() {
+
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 280) {
+      $('#nav-2').addClass('navbar-fixed');
+    }
+    if ($(window).scrollTop() < 281) {
+      $('#nav-2').removeClass('navbar-fixed');
+    }
+  });
+});
+
+
+
+
+
+
+
+
+
 
 
 

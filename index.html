@@ -58,11 +58,11 @@
 			</ul>
 
 			<ul id="home-menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Our Work</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a id="home-button" href="#nav-container">Home</a></li>
+				<li><a id="service-button" href="#services-main-box">Services</a></li>
+				<li><a id="feedback-button" href="#customer-color">Feedback</a></li>
+				<li><a id="aboutus-button" href="#aboutus">About Us</a></li>
+				<li><a id="contact-button" href="#map-main-container">Contact</a></li>
 			</ul>
 			
 		</div>
@@ -80,7 +80,7 @@
 			
 		</div>
 
-		<article>
+		<article id="article-scrolling-box">
 
 			<div id="article-heading-box">
 				<h1>Why you should choose us?</h1>
@@ -119,9 +119,10 @@
 			</div>
 		</article>
 
+		
+		<div id="services-main-box">
 		<h1 id="our-services">Our Services</h1>
 		<hr>
-		<div id="services-main-box">
 					<div id="service-left-box">
 
 								<div id="services-left">
@@ -271,76 +272,78 @@
 			</div>
 
 
-		<h1 id="our-services">Our Services</h1>
-		<hr>
-		<div id="services-main-box">
-					<div id="service-left-box">
+		<div id="aboutus">
+			<div id="services-main-box">
+			<h1 id="our-services">About Us</h1>
+			<hr>
+						<div id="service-left-box">
 
-								<div id="services-left">
+									<div id="services-left">
 
-										<div id="service-1" class="service-box">
-												<img src="images/member-1.jpg">
-												<span>+</span>
-												
-												<ul class="worker-name" >
-													<li>
-														<h3>Jonathan Doe</h3>
-													</li>
-													<li>Mechanic Worker</li>
-												</ul>
-										</div>
+											<div id="service-1" class="service-box">
+													<img src="images/member-1.jpg">
+													<span>+</span>
+													
+													<ul class="worker-name" >
+														<li>
+															<h3>Jonathan Doe</h3>
+														</li>
+														<li>Mechanic Worker</li>
+													</ul>
+											</div>
 
-										<div id="service-2" class="service-box">
-												<img src="images/member-2.jpg">
-												<span>+</span>
-												
-												<ul class="worker-name">
-													<li>
-														<h3>Sam Doe</h3>
-													</li>
-													<li>Mechanic Worker</li>
-												</ul>
-										</div>
+											<div id="service-2" class="service-box">
+													<img src="images/member-2.jpg">
+													<span>+</span>
+													
+													<ul class="worker-name">
+														<li>
+															<h3>Sam Doe</h3>
+														</li>
+														<li>Mechanic Worker</li>
+													</ul>
+											</div>
 
-								</div>
-
-					</div>
-
-					<div id="service-right-box">
-
-						<div id="services-right">
-
-							<div id="service-3" class="service-box">
-								<img src="images/member-3.jpg">
-								<span>+</span>
-								
-								<ul class="worker-name" >
-									<li>
-										<h3>Tom Doe</h3>
-									</li>
-									<li>Mechanic Worker</li>
-								</ul>
-							</div>
-							<div id="service-4" class="service-box">
-								<img src="images/services4.jpg">
-								<span>+</span>
-								
-								<ul class="worker-name">
-									<li>
-										<h3>Ethan Doe</h3>
-									</li>
-									<li>Mechanic Worker</li>
-								</ul>
-							</div>
+									</div>
 
 						</div>
-					</div>
+
+						<div id="service-right-box">
+
+							<div id="services-right">
+
+								<div id="service-3" class="service-box">
+									<img src="images/member-3.jpg">
+									<span>+</span>
+									
+									<ul class="worker-name" >
+										<li>
+											<h3>Tom Doe</h3>
+										</li>
+										<li>Mechanic Worker</li>
+									</ul>
+								</div>
+								<div id="service-4" class="service-box">
+									<img src="images/services4.jpg">
+									<span>+</span>
+									
+									<ul class="worker-name">
+										<li>
+											<h3>Ethan Doe</h3>
+										</li>
+										<li>Mechanic Worker</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
 
 			</div>
+		</div>
 
 
 			<div id="map-main-container">
-
+					<h1>Contact Us</h1>
 					<select id="store-picker">
 				
 					</select>
@@ -434,9 +437,13 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
 	<script type="text/javascript" src="js/script.js"></script>
+
 	<script src="js/geolocation.js"></script>
+
 	<script src="http://maps.googleapis.com/maps/api/js?callback=initMap&libraries=geometry"></script>
 	
 </body>

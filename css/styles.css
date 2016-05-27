@@ -149,6 +149,7 @@ nav h1 {
     border: 1px solid #333;
     border-radius: none;
     margin: 0;
+    width: 80px;
   }
 }
 #nav-2 ul:last-child li a {
