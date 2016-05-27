@@ -1,0 +1,38 @@
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
+
+
+
+
+
+@mixin bp-tablet {
+	@media all and (min-width: 600px) {
+		@content;
+	}
+}
+
+
+
+@mixin mscreen-950{
+@media all and (min-width:950px){
+		@content;
+	}
+}
+
+@mixin lscreen-650{
+@media all and (max-width:650px){
+		@content;
+	}
+}
+
+
+@mixin bp-desktop {
+	@media all and (min-width: 1366px) {
+		@content;
+	}
+}

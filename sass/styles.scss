@@ -1,22 +1,72 @@
 @import 'colors';
+@import 'mixins';
 $primaryColor: #008080;
+$primaryFont:'Open Sans', sans-serif;
 // @import 'susy';
+
+
+%clear{
+	content:'';
+	display:block;
+	clear:both;
+}
 
 body{
 	margin:0;
+	font: {
+		family: $primaryFont; // variables 
+	}
 }
 
 #nav-container{
+	@extend %clear;
+	@include mscreen-950{
+		height:150px;
+	}
 	nav{
+		padding:0 10px;
+		margin:auto 0;
+		box-sizing:border-box;
+		@extend %clear;
+		@include mscreen-950{
+			 padding-left:0;
+			 width:30%;
+			 float:left;
+		}
+
 		div{
-			h1{
-
+			@include lscreen-650{
+				width:310px;
 			}
-			a{
+			width:390px;
+			margin:0 auto;
+			// float:left;
+			@extend %clear;
+			padding-top:10px;
 
+			a{
+				img{
+					width:140px;
+					@include lscreen-650{
+						width:110px;
+					}
+
+				}
+			}
+			h1{
+				@include lscreen-650{
+						font-size:20px;
+						line-height:48px;
+					}
+				color: $primaryColor;
+				float: right;
+				line-height:85px;
+				margin-top: 32px;
+				text-transform: uppercase;
 			}
 		}
 	}
+
 	#contact{
 		ul{
 			#left-contact{
@@ -86,62 +136,60 @@ body{
 
 
 
-#nav-container{
-	@media all and (min-width:950px){
-		height:110px;
-	}
-	&:after{
-		content: '';
-			display: block;
-			clear: both;
-	}
-}
-nav {
-	padding:0 10px;
-	margin:auto 0;
-	&:after{
-			content: '';
-			display: block;
-			clear: both;
-		}
+// #nav-container{
+	
+// 	// &:after{
+// 	// 	content: '';
+// 	// 		display: block;
+// 	// 		clear: both;
+// 	// }
+// }
+// nav {
+// 	// padding:0 10px;
+// 	// margin:auto 0;
+// 	// &:after{
+// 	// 		content: '';
+// 	// 		display: block;
+// 	// 		clear: both;
+// 	// 	}
 
-	@media all and (min-width:950px){
-	 padding-left:0;
-	 width:28%;
-	 float: left;
-	}
+// 	// @media all and (min-width:950px){
+// 	//  padding-left:0;
+// 	//  width:28%;
+// 	//  float: left;
+// 	}
 
-	div{
-		width:300px;
-		margin:0 auto;
+// 	div{
+// 		// width:300px;
+// 		// margin:0 auto;
 
-		@media all and (min-width:950px){
+// 		// @media all and (min-width:950px){
 
-		}
+// 		// }
 
-		&:after{
-			content: '';
-			display: block;
-			clear: both;
-		}
-	}
+// 		// &:after{
+// 		// 	content: '';
+// 		// 	display: block;
+// 		// 	clear: both;
+// 		// }
+// 	}
 
-		a {
-			img{
-			width:120px;
+// 		a {
+// 			img{
+// 			width:120px;
 
-			}
-		}
+// 			}
+// 		}
 
-		h1{
-			color: $primaryColor;
-			float: right;
-			line-height:65px;
-			margin-top: 32px;
+// 		h1{
+// 			color: $primaryColor;
+// 			float: right;
+// 			line-height:65px;
+// 			margin-top: 32px;
 
 
-		}
-}
+// 		}
+// // }
 
 .phone-img{
 	padding-right:20px;

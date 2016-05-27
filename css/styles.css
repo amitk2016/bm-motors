@@ -1,51 +1,61 @@
+#nav-container, #nav-container nav, #nav-container nav div {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media all and (min-width: 950px) {
   #nav-container {
-    height: 110px;
+    height: 150px;
   }
 }
-#nav-container:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-nav {
+#nav-container nav {
   padding: 0 10px;
   margin: auto 0;
-}
-nav:after {
-  content: '';
-  display: block;
-  clear: both;
+  box-sizing: border-box;
 }
 @media all and (min-width: 950px) {
-  nav {
+  #nav-container nav {
     padding-left: 0;
-    width: 28%;
+    width: 30%;
     float: left;
   }
 }
-nav div {
-  width: 300px;
+#nav-container nav div {
+  width: 390px;
   margin: 0 auto;
+  padding-top: 10px;
 }
-nav div:after {
-  content: '';
-  display: block;
-  clear: both;
+@media all and (max-width: 650px) {
+  #nav-container nav div {
+    width: 310px;
+  }
 }
-nav a img {
-  width: 120px;
+#nav-container nav div a img {
+  width: 140px;
 }
-nav h1 {
+@media all and (max-width: 650px) {
+  #nav-container nav div a img {
+    width: 110px;
+  }
+}
+#nav-container nav div h1 {
   color: #008080;
   float: right;
-  line-height: 65px;
+  line-height: 85px;
   margin-top: 32px;
+  text-transform: uppercase;
+}
+@media all and (max-width: 650px) {
+  #nav-container nav div h1 {
+    font-size: 20px;
+    line-height: 48px;
+  }
 }
 
 .phone-img {
@@ -149,7 +159,6 @@ nav h1 {
     border: 1px solid #333;
     border-radius: none;
     margin: 0;
-    width: 80px;
   }
 }
 #nav-2 ul:last-child li a {
