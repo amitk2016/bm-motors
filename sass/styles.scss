@@ -28,7 +28,7 @@ body{
 		margin:auto 0;
 		box-sizing:border-box;
 		
-		@extend %clear;
+		// @extend %clear;
 		@include mscreen-950{
 			 padding-left:0;
 			 width:30%;
@@ -335,8 +335,7 @@ body{
 
 	}
 	ul{
-		margin-top:0;
-		@extend %clear;
+		
 	}
 	ul:last-child{
 		@media all and (max-width:900px){
@@ -344,8 +343,8 @@ body{
 			padding-left:0;
 			z-index: 50;
 			position:relative;
-			margin: 0 auto;
 			text-align: center;
+			margin-top:60px;
 			&:after{
 			content: '';
 			display: block;
@@ -356,15 +355,16 @@ body{
 		@media all and (min-width:900px){
 			padding-top:0;
 			float:left;
+			margin-top:25px;
 
 		}
 		li{
 			text-decoration: none;
 			background-color:$primaryColor;
-			padding:5px 15px;
+			padding:5px 18px;
 			border-radius:5px;
 			display: inline-block;
-			margin-right:18px;
+			margin-right:20px;
 			
 			@media all and (max-width:900px){
 				padding:20px 0;
@@ -390,40 +390,42 @@ body{
 		line-height: 80px;
 		@extend %clear;
 		@media all and(min-width:900px){
-			width:30%;
+			width:25%;
 			float:right;
 		}
 
 		#menu{
 		float:left;
-		width:40px;
-
+		width:50px;
 		@media all and (min-width:900px){
 			display: none;
 			}
 		}
 		.social-media{
 				float: right;
-				width:40px;
+				width:30px;
+
 			}
 		li:nth-of-type(1){
-			margin-right: 0;
+			margin-right: 5px;
 		}
 
 		li{
 			display: inline-block;
 			margin-right: 15px;
+			height:60px;
 
 
 
 			@media all and (min-width:900px){
 			margin-right:12px;
-			float: right;
+			float:right;
 			}
 
 			a{
 				img{
-					width:27px;
+					width:25px;
+
 
 				}
 			}
@@ -438,36 +440,56 @@ body{
 // 	background-repeat:no-repeat;
 // 	background-position:center;
 // }
-// #main-image{
-// 	&:after{
-// 		content: '';
-// 		display: block;
-// 		clear:both;
-// 	}
-// 	position:relative;
-// 	img{
-// 		display:block;
-// 		max-width: 100%;
-// 		display: none;
-// 		}
-// 	h1{
-// 		position:absolute;
-// 		top:50%;
-// 		left:22%;
-// 		width:70%;
-// 		display: block;
-// 		margin: 0 auto;
+#main-image{
+	&:after{
+		content: '';
+		display: block;
+		clear:both;
+	}
+	ul{
+		margin:0;
+		padding: 0;
+		li{
+			list-style: none;
+			margin:0;
+		}
+	}
+	position:relative;
+	img{
+		display:block;
+		max-width: 100%;
+		display: none;
+		}
+	h1{
+		position:absolute;
+		top:50%;
+		left:22%;
+		width:70%;
+		display: block;
+		margin: 0 auto;
 		
-// 		color: white;
-// 	}
-// }
+		color: white;
+	}
+}
+
+
 article{
 	background-image:url(../images/tweed.png);
 	text-align:center;
 	padding:20px;
 	box-sizing:border-box;
+	text-align:center;
+	@media all and(min-width:900px){
+		height:700px;
+		#article-margin{
+		padding-top:8%;
+		
+		}
+	}
+	
+
 	@media all and (min-width:800px){
-		padding:0 50px;
+		padding:30px 50px;
 	}
 	&:after{
 		content: '';
@@ -572,9 +594,38 @@ article{
 		float:right;
 	}
 }
+
+
+
+#services-main-box{
+	&:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+	@media all and (min-width: 750px){
+		padding:0 50px;
+	}
+
+	@media all and(min-width:900px){
+		height:700px;
+		margin:auto 0;
+		padding:0;
+	}
+	h1{
+		font-size:25px;
+		text-align:center;
+
+	}
+	
+}
 #our-services{
- font-size:20px;
- margin-bottom:10px;
+	 font-size:20px;
+	 margin-bottom:10px;
+	 @media all and(min-width:900px){
+				margin-bottom:100px;
+				margin-top: 30px;
+			}
 }
 
 #services{
@@ -589,6 +640,7 @@ article{
 		font-size: 20px;
 		margin-top: 10px;
 		margin-left: 38px;
+		
 	}
 	ul{
 		li:last-child{
@@ -792,15 +844,16 @@ article{
     display: block;
     clear:both;
   }
+  box-sizing:border-box;
 	@media all and (min-width:1024px){
-		width:45%;
+		width:48%;
 	}
 }
 
 #service-left-box{
 	@media all and (min-width:1024px){
 		float:left;
-		margin-right:60px;
+		margin-right:40px;
 	}
 }
 #service-right-box{
@@ -809,16 +862,16 @@ article{
 	}
 }
 
-#services-main-box{
-	&:after{
-			content: '';
-			display: block;
-			clear: both;
-		}
-	@media all and (min-width: 750px){
-		padding:0 50px;
-	}
-}
+// #services-main-box{
+// 	&:after{
+// 			content: '';
+// 			display: block;
+// 			clear: both;
+// 		}
+// 	@media all and (min-width: 750px){
+// 		padding:0 50px;
+// 	}
+// }
 .worker-name{
 	li{
 		border:none;
@@ -834,6 +887,9 @@ article{
 
 #customer-color{
 	background-color:#333b4a;
+	@media all and(min-width:900px){
+		height: 700px;
+	}
 	#customers-main-box{
 		padding:15px;
 		#customer-720{
@@ -940,7 +996,7 @@ article{
 							
 						}
 						img{
-								width:150px;
+								width:130px;
 								display: block;
 								float:right;
 								// max-width: 100%;
@@ -1001,7 +1057,7 @@ article{
 							
 						}
 						img{
-								width:150px;
+								width:130px;
 								display: block;
 								float:right;
 								// max-width: 100%;
@@ -1142,10 +1198,20 @@ article{
 //Google Maps styles Starts here.............................................................................................
 
 #map-main-container{
+	@media all and(min-width:900px){
+		height:700px;
+	}
 	&:after{
 			content: '';
 			display: block;
 			clear:both;
+		}
+		h1{
+			font-size: 25px;
+			text-align: center;
+			@media all and(min-width:900px){
+				margin-bottom: 150px;
+			}
 		}
 	#maps{
 		&:after{

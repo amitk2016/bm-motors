@@ -54,24 +54,23 @@ $('#contact-button').click(function(){
 
 
 
+//Image Slider with fade effects.....................................................................
 
+$( document ).ready(function() {
+    var myIndex = 0;
+	carousel();
 
-// nav-2 scroll to some height and fixed at its position 
-
-$(document).ready(function() {
-
-  $(window).scroll(function () {
-      //if you hard code, then use console
-      //.log to determine when you want the 
-      //nav bar to stick.  
-      console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 280) {
-      $('#nav-2').addClass('navbar-fixed');
-    }
-    if ($(window).scrollTop() < 281) {
-      $('#nav-2').removeClass('navbar-fixed');
-    }
-  });
+	function carousel() {
+	    var i;
+	    var x = document.getElementsByClassName("mySlides");
+	    for (i = 0; i < x.length; i++) {
+	       x[i].style.display = "none";  
+	    }
+	    myIndex++;
+	    if (myIndex > x.length) {myIndex = 1}    
+	    x[myIndex-1].style.display = "block";  
+	    setTimeout(carousel, 4000);    
+}
 });
 
 
@@ -80,15 +79,7 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
 // Image slider for main images 
-
-
 
 // function slider (){
 // 	$(".slider #1").show("fade",200);
