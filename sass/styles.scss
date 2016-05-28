@@ -392,6 +392,9 @@ body{
 		@media all and(min-width:900px){
 			width:25%;
 			float:right;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			line-height: none;
 		}
 
 		#menu{
@@ -887,8 +890,12 @@ article{
 
 #customer-color{
 	background-color:#333b4a;
-	@media all and(min-width:900px){
-		height: 700px;
+	@extend %clear;
+	@media all and(min-width:1024px){
+		height: 800px;
+	}
+	h1{
+
 	}
 	#customers-main-box{
 		padding:15px;
@@ -908,6 +915,10 @@ article{
 				padding-bottom:20px;
 				padding-top:20px;
 				width:80%;
+				@media all and(min-width:900px){
+					margin-top: 80px;
+					margin-bottom:150px;
+				}
 
 			}
 			#customer-left{
@@ -917,8 +928,10 @@ article{
 						clear: both	;
 					}
 				@media all and(min-width:1024px){
-					width:45%;
+					width:49%;
 					float:left;
+					box-sizing:border-box;
+
 				}
 
 				#customer1{
@@ -970,8 +983,10 @@ article{
 					padding:10px;
 					margin-bottom:60px;
 					@media all and(min-width:800px){
-						width:45%;
+						width:48%;
 						float:right;
+						box-sizing:border-box;
+
 					}
 					.profile-img{
 						border-radius:50%;
@@ -1013,7 +1028,7 @@ article{
 			#customer-right{
 
 				@media all and(min-width:1024px){
-					width:48%;
+					width:49%;
 					float:right;
 				}
 
