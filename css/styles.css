@@ -8,6 +8,9 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+body h3 {
+  font-size: 18px;
+}
 
 @media all and (min-width: 950px) {
   #nav-container {
@@ -45,6 +48,7 @@ body {
   }
 }
 #nav-container nav div h1 {
+  font-size: 25px;
   color: #008080;
   float: right;
   line-height: 85px;
@@ -65,7 +69,7 @@ body {
 }
 @media all and (min-width: 950px) {
   #nav-container #contact ul {
-    width: 70%;
+    width: 80%;
   }
 }
 @media all and (min-width: 950px) {
@@ -98,12 +102,14 @@ body {
 @media all and (min-width: 650px) {
   #contact #left-contact {
     float: left;
+    width: 40%;
   }
   #contact hr {
     display: none;
   }
   #contact #right-contact {
     float: right;
+    width: 60%;
   }
 }
 #contact ul {
@@ -124,9 +130,6 @@ body {
 #contact ul li p {
   line-height: 60%;
   font-size: 14px;
-}
-#contact div {
-  width: 200px;
 }
 #contact a img {
   width: 25px;
@@ -295,7 +298,7 @@ article #article-heading-box p {
   }
 }
 article #article-heading-box h1 {
-  font-size: 25px;
+  font-size: 22px;
   color: white;
 }
 @media all and (min-width: 1024px) {
@@ -405,8 +408,11 @@ article #article-heading-box img {
   }
 }
 #services-main-box h1 {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 #our-services {
@@ -555,6 +561,11 @@ article #article-heading-box img {
   }
 }
 
+#service-3:after, #service-4:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 @media all and (min-width: 750px) {
   #service-3, #service-4 {
     width: 45%;
@@ -855,6 +866,7 @@ article #article-heading-box img {
   height: 50px;
   float: left;
   text-align: center;
+  font-size: 18px;
 }
 #customer-color #customers-main-box #customer-720 #customer-right #customer4 div img {
   width: 150px;
@@ -865,41 +877,130 @@ article #article-heading-box img {
   width: 150px;
 }
 
+#contact-main-box {
+  background-image: url(../images/cork-wallet.png);
+}
+#contact-main-box #contact-box {
+  margin: 0 auto;
+  max-width: 80%;
+}
+#contact-main-box #contact-box #form-box {
+  padding-top: 30px;
+  max-width: 100%;
+  text-align: left;
+}
+#contact-main-box #contact-box #form-box #send {
+  background-color: #e8554e;
+  width: 150px;
+  font-size: 18px;
+  padding: 8px 10px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 5px solid #9a3834;
+  letter-spacing: 3px;
+  border-radius: 3px;
+}
+#contact-main-box #contact-box #form-box #post {
+  border: 0;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+#contact-main-box #contact-box #form-box #post span {
+  display: block;
+}
+#contact-main-box #contact-box #form-box #message-box span {
+  display: block;
+  max-width: 100%;
+}
+#contact-main-box #contact-box #form-box #phone-box {
+  margin-bottom: 20px;
+}
+#contact-main-box #contact-box #form-box #phone-box span {
+  display: block;
+}
+#contact-main-box #contact-box #form-box #phone {
+  width: 300px;
+  height: 35px;
+  /*background-color: #e1e1db;*/
+  border: 0;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+#contact-main-box #contact-box #form-box ul {
+  padding: 0;
+}
+#contact-main-box #contact-box #form-box ul li {
+  list-style: none;
+}
+#contact-main-box #contact-box #form-box ul li span {
+  display: block;
+}
+#contact-main-box #contact-box #form-box ul li span #name {
+  width: 300px;
+  height: 35px;
+  /*background-color: #e1e1db;*/
+  border: 0;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-right: 50px;
+}
+#contact-main-box #contact-box #form-box ul li span #email {
+  width: 300px;
+  height: 35px;
+  /*background-color: #e1e1db;*/
+  border: 0;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+#contact-main-box #contact-box #form-box h1 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#contact-main-box #map-main-container {
+  margin-top: 80px;
+}
 @media all and (min-width: 900px) {
-  #map-main-container {
+  #contact-main-box #map-main-container {
     height: 700px;
+    margin-top: 80px;
   }
 }
-#map-main-container:after {
+#contact-main-box #map-main-container:after {
   content: '';
   display: block;
   clear: both;
 }
-#map-main-container h1 {
+#contact-main-box #map-main-container h1 {
   font-size: 25px;
   text-align: center;
 }
 @media all and (min-width: 900px) {
-  #map-main-container h1 {
+  #contact-main-box #map-main-container h1 {
     margin-bottom: 150px;
   }
 }
-#map-main-container #maps:after {
+#contact-main-box #map-main-container #maps:after {
   content: '';
   display: block;
   clear: both;
 }
 @media all and (min-width: 750px) {
-  #map-main-container #maps {
-    width: 70%;
+  #contact-main-box #map-main-container #maps {
+    width: 60%;
     float: right;
   }
 }
-#map-main-container #maps #map-container {
+#contact-main-box #map-main-container #maps #map-container {
   max-width: 100%;
   height: 350px;
 }
-#map-main-container #maps select {
+#contact-main-box #map-main-container #maps select {
   width: 120px;
 }
 

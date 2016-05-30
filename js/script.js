@@ -127,11 +127,26 @@ $('#service-4').hover(function(){
 
 
 
+
+
+
+
 // Geolocation code 
 
 // grab the div where google map is located 
 
+// var c = function(pos){
+// 	var lat = pos.coords.latitude,
+// 		long = pos.coords.longitude,
+// 		coords = lat +','+ long;
+// 	document.getElementById('google-map').setAttribute('src','https://maps.google.co.nz/?q='+ coords +'&z=16&output=embed');
+// 	console.log(coords);
+// }
 
+// document.getElementById('user-location').onclick = function(){
+// 	navigator.geolocation.getCurrentPosition(c);
+// 	return false;
+// }
 
 
 

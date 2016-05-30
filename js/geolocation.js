@@ -39,17 +39,17 @@ function placeStoreMarkers() {
 	// Connect to database and get the locations
 	var locations = [
 		{
-			title: "Hataitai Shop",
+			title: "wellington workshop",
 			lat: -41.304199,
 			lng: 174.794832
 		},
 		{
-			title: "Petone Store",
+			title: " Johsenville Workshop",
 			lat: -41.224220,
 			lng: 174.882146
 		},
 		{
-			title: 'Te Papa',
+			title: 'Petone Workshop',
 			lat: -41.290501,
 			lng: 174.782102
 		}
@@ -92,7 +92,7 @@ function populateStorePicker(locations) {
 
 	// Create a "Please select..." option
 	var optionElement = document.createElement('option');
-	optionElement.innerHTML = "Please select a store...";
+	optionElement.innerHTML = "Please select a Workshop..";
 	storePickerElement.appendChild(optionElement);
 
 	// Create all the location options

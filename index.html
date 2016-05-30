@@ -6,7 +6,7 @@
 	<meta name="description" content="between 150 and 160 characters ">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	
 
 <!-- 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> -->
 	<link rel="stylesheet" href="css/styles.css">
@@ -350,17 +350,58 @@
 		</div>
 
 
-			<div id="map-main-container">
-					<h1>Contact Us</h1>
-					<select id="store-picker">
-				
-					</select>
+		<div id="contact-main-box">
+				<div id="contact-box">
+					<div id="form-box">
+								<h1>Contact Us</h1>
+								
+								<form>
+									
+									<ul>
 
-				<div id="maps">
-					<div id="map-container"></div>	
-				</div>
+										<li><label for="name">Name: </label>
+										<span><input type="text" id="name"></input></span><li>
 
-			</div>
+										<li><label for="email">E-mail:</label>
+										<span><input type="email" id="email" ></input></span></li>
+									</ul>
+
+									<div id="message-box">
+										<label for="post" >Meassge:</label>
+										<span><textarea name="post" id="post" cols="60" rows="10"></textarea></span>
+									</div>
+
+									<div id="phone-box">
+										<label for="phone">Phone Number:</label>
+										<span><input type="tel" id="phone"></input></span>
+									</div>
+
+									<input type="submit" value="Send" id="send"></input>
+
+								</form>
+							</div>
+
+
+
+
+					<div id="map-main-container">
+							
+							<select id="store-picker">
+						
+							</select>
+
+						<div id="maps">
+							<div id="map-container"></div>	
+						</div>
+
+					</div>
+
+				</div>	
+
+		</div>
+
+		<!-- xx  -->
+
 
 
 
